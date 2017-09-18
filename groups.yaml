@@ -1,0 +1,34 @@
+###VIEWS
+bedroom_view:
+ view: yes
+ name: Bedroom
+ entities:
+  - group.bedroom
+living_room_view:
+ view: yes
+ name: Living_Room
+ entities:
+  - group.living_room
+phones_view:
+ view: yes
+ name: Phones
+ entities:
+  - group.phones
+###GROUPS
+bedroom:
+ name: Bedroom
+ entities:
+  - device_tracker.mibox
+  - media_player.mi_box
+  - media_player.mibox3
+living_room:
+ name: Living Room
+ entities:
+  - device_tracker.harmony_hub
+  - remote.harmony_hub
+  - media_player.roku_632643060083
+phones:
+ name: Phones
+ entities:
+  - device_tracker.Vanessa_Phone
+  - device_tracker.Derek_Phone
